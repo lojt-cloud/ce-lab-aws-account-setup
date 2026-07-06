@@ -1,7 +1,7 @@
 # AWS Account Setup Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date Completed:** [Date]
+**Student Name:** [Balint Lojt]  
+**Date Completed:** [06/07/2026]
 
 ---
 
@@ -11,9 +11,9 @@
 ![MFA Enabled](screenshots/mfa-enabled.png)
 
 ### Notes:
-- Authenticator app used: [Google Authenticator / Microsoft Authenticator / Authy]
-- MFA setup completed successfully: [Yes / No]
-- Backup codes saved: [Yes / No]
+- Authenticator app used: [Google Authenticator]
+- MFA setup completed successfully: [Yes / ]
+- Backup codes saved: [Yes /]
 
 ---
 
@@ -31,9 +31,9 @@
 ![SNS Confirmed](screenshots/sns-confirmed.png)
 
 ### Configuration Details:
-- Alert threshold: $[amount]
-- Email confirmed: [Yes / No]
-- Additional thresholds created (bonus): [Yes / No - if yes, list amounts]
+- Alert threshold: $[10]
+- Email confirmed: [Yes / ]
+- Additional thresholds created (bonus): [ No]
 
 ---
 
@@ -43,9 +43,9 @@
 ![Account Alias](screenshots/account-alias.png)
 
 ### Account Details:
-- **Account Alias:** [your-alias-here]
-- **Sign-In URL:** `https://[your-alias].signin.aws.amazon.com/console`
-- **Tested successfully:** [Yes / No]
+- **Account Alias:** [balint-ironhack-bootcamp]
+- **Sign-In URL:** [`https://[your-alias].signin.aws.amazon.com/console`](https://balint-ironhack-bootcamp.signin.aws.amazon.com/console)
+- **Tested successfully:** [Yes]
 
 ---
 
