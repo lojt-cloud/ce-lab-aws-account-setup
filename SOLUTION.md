@@ -71,36 +71,50 @@
 ### 1. Why is MFA important even for a personal learning account?
 
 **Your Answer:**
-[Write your answer here. Consider: What could happen if someone gained access to your account? What damage could they do? What costs could they incur?]
+[ They can create a huge amount of bills within a short period of time using bots. Change settings/ add new users or change privileges to the account. Would give them access to the whole production lines and systems, and can pull sensitive data from there. On the company level, it would break the service level agreement and confidentiality. 
 
 ---
 
 ### 2. What would happen if you left your root user unprotected?
 
 **Your Answer:**
-[Write your answer here. Think about: What access does root user have? What could an attacker do? How would you recover?]
+Root user has unlimited access to the services, lock out, change access, and delete data.
+For recovery, a password reset and if a credential key is exposed, then revoke it and create a new one immediately. Rotate the credentials with a stricter policy, audit the logs to see the damage, if there is any unusual activity or changes. Also, using dedicated storage for credentials/ secrets should be used.
 
 ---
 
 ### 3. How do billing alerts help prevent unexpected charges?
 
 **Your Answer:**
-[Write your answer here. Consider: When do you get notified? What actions can you take? Why is proactive monitoring important?]
+Depending on the configuration, you get notified when you hit the selected target metrics.
+Percentage-based thresholds: Getting alerts at specific milestones (e.g., 50%, 80%, and 100% of your budgeted amount) so there are no surprises.
+Forecasted vs. Actual spend: Getting notified if your current usage pattern predicts you will blow past your budget by the end of the month, even if you haven't spent the money yet.
+For Actions:
+Optimisation is one way to go. Identifying and shutting down idle VMs, unattached storage disks, or underutilised databases.
+
+Troubleshooting. Investigating runaway scripts, infinite code loops, or unexpected traffic spikes that are draining resources.
+
+Automation. Setting up automated guardrails (e.g., automatically capping a service or spinning down sandbox environments when an alert fires).
+
+Proactive monitoring helps to prevent huge end-of-the-month bills, where you can't do much about them.
+Help catch early security issues, like sudden spikes(can be from leaked credentials and the attacker uses bots for crypto mining, etc).
+Creates the financial accountability for the team, being able to design resource-efficient architecture from day one can save tons of money. 
 
 ---
 
 ### 4. What threshold did you set for your billing alert and why?
 
 **Your Answer:**
-[Write your answer here. Explain: Why did you choose this amount? Is it appropriate for your usage? Would you set multiple thresholds?]
+10 dollar would not hurt if I reach it. For the learning stage, it is perfect, I believe, because there is real money at stake to pay attention to and can feel the weight of the mistake if it happens and learn from it faster.
+Yes, I would set multiple thresholds to practise it because in a real-life environment, it is crucial to have. 
 
 ---
 
-### 5. What is your account alias and why did you choose it?
+### 5. What is your account alias, and why did you choose it?
 
 **Your Answer:**
-- **Alias:** [your-alias]
-- **Reasoning:** [Why did you choose this name? What makes it memorable and professional?]
+- **Alias:** [balint-ironhack-bootcamp]
+- **Reasoning:** [Giving it a logical, easy-to-remember name is important for future usage in case I have to work in different accounts, also for different companies ?]
 
 ---
 
@@ -108,6 +122,8 @@
 
 **Your Answer:**
 [List the services you're using and their current usage levels. Are you surprised by any usage?]
+AWS glue, did 10 requests so far, which is on the low side. Haven't seen any surprised usage so far. 
+
 
 ---
 
