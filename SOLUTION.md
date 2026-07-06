@@ -8,12 +8,13 @@
 ## Exercise 1: MFA Configuration
 
 ### Screenshot:
-![MFA Enabled](screenshots/mfa-enabled.png)
+![MFA Enabled](<img width="1466" height="456" alt="billing-preferences" src="https://github.com/user-attachments/assets/e8bef6f9-4842-4a2a-9c1d-da3d06d35987" />]
+
 
 ### Notes:
 - Authenticator app used: [Google Authenticator]
 - MFA setup completed successfully: [Yes / ]
-- Backup codes saved: [Yes /]
+- Backup codes saved: [Yes]
 
 ---
 
@@ -22,17 +23,20 @@
 ### Screenshots:
 
 **Billing Preferences:**
-![Billing Preferences](screenshots/billing-preferences.png)
+![Billing Preferences](screenshots/billing-preferences.png)<img width="1466" height="456" alt="billing-preferences" src="https://github.com/user-attachments/assets/e4dcf8fc-39c3-4d3a-a963-3449eb49d835" />
+
 
 **Billing Alarm:**
-![Billing Alarm](screenshots/billing-alarm.png)
+![Billing Alarm](screenshots/billing-alarm.png)<img width="1429" height="467" alt="billing-alarm" src="https://github.com/user-attachments/assets/21fce56b-eb89-493e-afd6-16ff4db5d31c" />
+
 
 **SNS Confirmation:**
-![SNS Confirmed](screenshots/sns-confirmed.png)
+![SNS Confirmed](screenshots/sns-confirmed.png)<img width="1323" height="314" alt="sns-confirmed" src="https://github.com/user-attachments/assets/d2a756f7-433f-47d4-be23-dc24dd38973b" />
+
 
 ### Configuration Details:
 - Alert threshold: $[10]
-- Email confirmed: [Yes / ]
+- Email confirmed: [Yes]
 - Additional thresholds created (bonus): [ No]
 
 ---
@@ -40,7 +44,8 @@
 ## Exercise 3: Account Alias
 
 ### Screenshot:
-![Account Alias](screenshots/account-alias.png)
+![Account Alias](screenshots/account-alias.png)<img width="1463" height="377" alt="account-alias" src="https://github.com/user-attachments/assets/409edb34-582a-4b2d-ac91-67db47d75c8f" />
+
 
 ### Account Details:
 - **Account Alias:** [balint-ironhack-bootcamp]
@@ -52,7 +57,9 @@
 ## Exercise 4: Free Tier Dashboard
 
 ### Screenshot:
-![Free Tier Dashboard](screenshots/free-tier-dashboard.png)
+![Free Tier Dashboard](screenshots/free-tier-dashboard.png)<img width="1414" height="475" alt="multi-billing-alert" src="https://github.com/user-attachments/assets/236dcac6-82bc-4ea3-802a-2d70ea394f2a" />
+<img width="1857" height="681" alt="free-tier-dashboard" src="https://github.com/user-attachments/assets/8900b8ee-c1ac-42bd-af27-3ae6f69d2a47" />
+
 
 ### Current Free Tier Usage Summary:
 
@@ -132,66 +139,65 @@ AWS glue, did 10 requests so far, which is on the low side. Haven't seen any sur
 ### Challenge 1: Multiple Billing Alert Thresholds
 
 - [ ] $5 threshold
-- [ ] $25 threshold
-- [ ] $50 threshold
+- [ x] $25 threshold
+- [ x] $50 threshold
 
 **Screenshots (if completed):**
-[Add screenshots here]
+<img width="1414" height="475" alt="multi-billing-alert" src="https://github.com/user-attachments/assets/95497d4a-eaf1-443c-85f8-867265a48a54" />
+
 
 ---
 
 ### Challenge 2: CloudTrail Enabled
 
-- [ ] CloudTrail enabled
-- [ ] Logging to S3 configured
+- [ x] CloudTrail enabled
+- [ x] Logging to S3 configured
 
 **Notes:**
-[Add any notes about CloudTrail setup]
+<img width="1832" height="568" alt="cloudtrail-setup" src="https://github.com/user-attachments/assets/c7826cfa-c33a-4454-9022-314505662632" />
+
 
 ---
 
 ### Challenge 3: AWS Trusted Advisor Reviewed
 
-- [ ] Accessed Trusted Advisor
-- [ ] Reviewed recommendations
+- [x ] Accessed Trusted Advisor
+- [x ] Reviewed recommendations
 
 **Key recommendations found:**
-[List any recommendations you found]
+None
 
 ---
 
 ## Lessons Learned
 
 **What was the most challenging part of this lab?**
-
-[Your answer]
+IAM user setup had an issue with the MFA key at the login stage for the alias and had to generate a new one because the previous one expired/didn't work. 
 
 ---
 
 **What would you do differently next time?**
-
-[Your answer]
+double check for access keys. 
 
 ---
 
 **What security practices will you implement going forward?**
-
-[Your answer]
+rotating the key within a certain period of time. 
 
 ---
 
 ## Checklist Before Submission
 
-- [ ] All required screenshots captured and saved
-- [ ] Screenshots are clear and show relevant information
-- [ ] All reflection questions answered thoroughly
-- [ ] Account alias documented
-- [ ] Free Tier usage documented
-- [ ] Work committed to Git
-- [ ] Pull request created
-- [ ] PR URL submitted to Student Portal
+- [ x] All required screenshots captured and saved
+- [ x] Screenshots are clear and show relevant information
+- [ x] All reflection questions answered thoroughly
+- [ x] Account alias documented
+- [ x] Free Tier usage documented
+- [x ] Work committed to Git
+- [x ] Pull request created
+- [x ] PR URL submitted to Student Portal
 
 ---
 
-**Lab Completed By:** [Your Name]  
-**Date:** [Date]
+**Lab Completed By:** [Balint Lojt]  
+**Date:** [06/07/2026]
