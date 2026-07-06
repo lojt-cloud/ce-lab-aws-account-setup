@@ -58,13 +58,11 @@
 
 | Service | Current Usage | Free Tier Limit | Status |
 |---------|--------------|-----------------|--------|
-| EC2 | [X hours / 750 hours] | 750 hours/month | [Green/Yellow/Red] |
-| S3 | [X GB / 5 GB] | 5 GB | [Green/Yellow/Red] |
-| [Other services...] | | | |
+| AWS glue|    10 request| 1000000.0| ----|
 
 ### Notes:
-- Any services approaching limits? [Yes / No - if yes, which ones?]
-- Any unexpected usage? [Yes / No - if yes, describe]
+- Any services approaching limits? [ No ]
+- Any unexpected usage? [ No]
 
 ---
 
